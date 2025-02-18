@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>道德 on Yuji的AI探索博客</title>
-        <link>http://localhost:1313/tags/%E9%81%93%E5%BE%B7/</link>
+        <link>http://localhost:53660/tags/%E9%81%93%E5%BE%B7/</link>
         <description>Recent content in 道德 on Yuji的AI探索博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%81%93%E5%BE%B7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:53660/tags/%E9%81%93%E5%BE%B7/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>AI伦理：在技术与道德之间寻找平衡</title>
-        <link>http://localhost:1313/posts/ai-ethics/</link>
+        <link>http://localhost:53660/posts/ai-ethics/</link>
         <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/ai-ethics/</guid>
-        <description>&lt;img src="http://localhost:1313/img/posts/ai-ethics.png" alt="Featured image of post AI伦理：在技术与道德之间寻找平衡" /&gt;&lt;h2 id=&#34;ai伦理的重要性&#34;&gt;AI伦理的重要性
+        <guid>http://localhost:53660/posts/ai-ethics/</guid>
+        <description>&lt;img src="http://localhost:53660/img/posts/ai-ethics.png" alt="Featured image of post AI伦理：在技术与道德之间寻找平衡" /&gt;&lt;h2 id=&#34;ai伦理的重要性&#34;&gt;AI伦理的重要性
 &lt;/h2&gt;&lt;p&gt;随着人工智能技术的快速发展，AI伦理问题日益凸显。本文将探讨AI发展中的关键伦理问题及其可能的解决方案。&lt;/p&gt;
 &lt;h3 id=&#34;核心问题&#34;&gt;核心问题
 &lt;/h3&gt;&lt;ol&gt;
