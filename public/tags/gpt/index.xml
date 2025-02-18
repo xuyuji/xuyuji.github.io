@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>GPT on Yuji的AI探索博客</title>
+        <link>http://localhost:1313/tags/gpt/</link>
+        <description>Recent content in GPT on Yuji的AI探索博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gpt/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>大语言模型的发展历程与未来展望</title>
+        <link>http://localhost:1313/posts/llm-development/</link>
+        <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/llm-development/</guid>
+        <description>&lt;img src="http://localhost:1313/img/posts/llm-development.png" alt="Featured image of post 大语言模型的发展历程与未来展望" /&gt;&lt;h2 id=&#34;大语言模型的发展历程&#34;&gt;大语言模型的发展历程
+&lt;/h2&gt;&lt;p&gt;大语言模型（Large Language Models，LLM）的发展可以追溯到2018年。让我们回顾这个激动人心的历程。&lt;/p&gt;
+&lt;h3 id=&#34;早期探索2018-2019&#34;&gt;早期探索（2018-2019）
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GPT-1&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI 的首次尝试&lt;/li&gt;
+&lt;li&gt;1.17亿参数&lt;/li&gt;
+&lt;li&gt;证明了Transformer架构的潜力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;BERT&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google的突破性成果&lt;/li&gt;
+&lt;li&gt;双向编码&lt;/li&gt;
+&lt;li&gt;为下游任务设立新标准&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;规模化时代2019-2021&#34;&gt;规模化时代（2019-2021）
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GPT-2&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;15亿参数&lt;/li&gt;
+&lt;li&gt;引发伦理争议&lt;/li&gt;
+&lt;li&gt;展示了零样本学习能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GPT-3&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1750亿参数&lt;/li&gt;
+&lt;li&gt;少样本学习能力&lt;/li&gt;
+&lt;li&gt;开启API商业化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;多模态革新2022-2023&#34;&gt;多模态革新（2022-2023）
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对话式交互&lt;/li&gt;
+&lt;li&gt;RLHF技术应用&lt;/li&gt;
+&lt;li&gt;引爆AI热潮&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GPT-4&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;多模态能力&lt;/li&gt;
+&lt;li&gt;更强的推理能力&lt;/li&gt;
+&lt;li&gt;更好的对齐效果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;开源浪潮2023-2024&#34;&gt;开源浪潮（2023-2024）
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LLaMA&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Meta的开源尝试&lt;/li&gt;
+&lt;li&gt;社区创新基础&lt;/li&gt;
+&lt;li&gt;催生众多衍生模型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claude系列&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;注重安全性&lt;/li&gt;
+&lt;li&gt;更长的上下文窗口&lt;/li&gt;
+&lt;li&gt;宪法AI理念&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;未来展望&#34;&gt;未来展望
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;技术方向&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更高效的训练方法&lt;/li&gt;
+&lt;li&gt;更长的上下文处理&lt;/li&gt;
+&lt;li&gt;多模态深度融合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;应用领域&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;代码开发辅助&lt;/li&gt;
+&lt;li&gt;科学研究助手&lt;/li&gt;
+&lt;li&gt;创意内容生成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;伦理考量&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;偏见消除&lt;/li&gt;
+&lt;li&gt;隐私保护&lt;/li&gt;
+&lt;li&gt;安全对齐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;结语&#34;&gt;结语
+&lt;/h2&gt;&lt;p&gt;大语言模型的发展仍在加速，我们正处于AI技术革命的前沿。持续关注这一领域的发展，将帮助我们更好地理解和利用这一强大工具。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

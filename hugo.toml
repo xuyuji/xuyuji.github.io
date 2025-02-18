@@ -18,7 +18,7 @@ enableEmoji = true
     mainSections = ["posts"]
     featuredImageField = "image"
     rssFullContent = true
-    favicon = "img/avatar/mechanical-fish.png"
+    favicon = "img/avatar.png"
 
     [params.footer]
         since = 2024
@@ -31,11 +31,12 @@ enableEmoji = true
     [params.sidebar]
         emoji = "🤖"
         subtitle = "探索AI技术的无限可能"
+        compact = false
 
         [params.sidebar.avatar]
             enabled = true
             local = true
-            src = "img/avatar/mechanical-fish.png"
+            src = "img/avatar.png"
 
     [params.article]
         math = false

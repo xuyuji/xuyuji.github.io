@@ -2,7 +2,7 @@
 title: "AI探索之旅的开始"
 description: "欢迎来到我的AI探索博客"
 date: 2024-02-18
-image: "/img/hello-world.jpg"
+image: "/img/posts/hello-world.png"
 categories:
     - AI
     - 机器学习

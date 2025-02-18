@@ -15,11 +15,35 @@
         <description></description>
         </item>
         <item>
+        <title>LLM</title>
+        <link>http://localhost:1313/categories/llm/</link>
+        <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/llm/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>机器学习</title>
         <link>http://localhost:1313/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
         <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>工具</title>
+        <link>http://localhost:1313/categories/%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/%E5%B7%A5%E5%85%B7/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>伦理</title>
+        <link>http://localhost:1313/categories/%E4%BC%A6%E7%90%86/</link>
+        <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/%E4%BC%A6%E7%90%86/</guid>
         <description></description>
         </item>
         
