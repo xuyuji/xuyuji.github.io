@@ -1,20 +1,17 @@
 ---
 title: "关于我"
 description: "个人简介和博客说明"
-date: 2024-02-18
+date: 2025-02-18
 ---
 
 ## 关于我
 
-你好！我是 Yuji，一个对人工智能充满热情的探索者。我热衷于学习和分享 AI 相关的知识和经验。
+你好！我是 鱼机，一个对人工智能充满热情的探索者。我热衷于学习和分享 AI 相关的知识和经验。
 
 ### 我的兴趣领域
 
-- 机器学习
-- 深度学习
-- 自然语言处理
-- 计算机视觉
-- AI 应用开发
+- AI绘画
+- AI编程
 
 ### 为什么是 AI？
 
@@ -27,8 +24,8 @@ date: 2024-02-18
 
 ### 联系方式
 
-- GitHub: [yuji-blog](https://github.com/yuji-blog)
-- Email: [your-email@example.com]
+- GitHub: [鱼机的博客](https://xuyuji.github.io/)
+- Email: [xuyuji1987@gmail.com]
 
 ### 关于本博客
 
