@@ -34,6 +34,10 @@ hugo server -D
 
 本站使用 GitHub Pages 部署，访问地址：https://yuji-blog.github.io
 
+## 发布文章
+
+请参考 [文章发布指南](docs/POST_GUIDE.md) 了解如何发布新文章。
+
 ## 许可证
 
 MIT License
