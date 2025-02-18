@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>工作流 on Yuji的AI探索博客</title>
-        <link>http://localhost:53660/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
+        <link>http://localhost:1313/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
         <description>Recent content in 工作流 on Yuji的AI探索博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:53660/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>AI工具使用指南：提升工作效率的秘诀</title>
-        <link>http://localhost:53660/posts/ai-tools-guide/</link>
+        <link>http://localhost:1313/posts/ai-tools-guide/</link>
         <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53660/posts/ai-tools-guide/</guid>
-        <description>&lt;img src="http://localhost:53660/img/posts/ai-tools.png" alt="Featured image of post AI工具使用指南：提升工作效率的秘诀" /&gt;&lt;h2 id=&#34;ai工具的分类与选择&#34;&gt;AI工具的分类与选择
+        <guid>http://localhost:1313/posts/ai-tools-guide/</guid>
+        <description>&lt;img src="http://localhost:1313/img/posts/ai-tools.png" alt="Featured image of post AI工具使用指南：提升工作效率的秘诀" /&gt;&lt;h2 id=&#34;ai工具的分类与选择&#34;&gt;AI工具的分类与选择
 &lt;/h2&gt;&lt;p&gt;在当今数字时代，AI工具已经成为提升工作效率的重要助手。本文将为您介绍如何选择和使用各类AI工具。&lt;/p&gt;
 &lt;h3 id=&#34;文本处理类&#34;&gt;文本处理类
 &lt;/h3&gt;&lt;ol&gt;
