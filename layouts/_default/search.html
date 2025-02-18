@@ -1,0 +1,155 @@
+{{ define "main" }}
+<div class="search-page">
+    <div class="search-box">
+        <input type="text" id="search-query" class="search-input" placeholder="搜索文章...">
+    </div>
+    <div id="search-results" class="search-results">
+        <!-- 搜索结果将在这里显示 -->
+    </div>
+</div>
+
+<script>
+    // 搜索功能实现
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('search-query');
+        const resultsContainer = document.getElementById('search-results');
+        let searchIndex = null;
+
+        // 加载搜索索引
+        fetch('/index.json')
+            .then(response => response.json())
+            .then(data => {
+                searchIndex = data.items;
+            });
+
+        // 处理搜索
+        searchInput.addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            if (!query || !searchIndex) {
+                resultsContainer.innerHTML = '';
+                return;
+            }
+
+            const results = searchIndex.filter(item => {
+                const titleMatch = item.title.toLowerCase().includes(query);
+                const contentMatch = item.content_html.toLowerCase().includes(query);
+                const tagsMatch = item.tags && item.tags.some(tag => tag.toLowerCase().includes(query));
+                const categoriesMatch = item.categories && item.categories.some(cat => cat.toLowerCase().includes(query));
+                return titleMatch || contentMatch || tagsMatch || categoriesMatch;
+            });
+
+            displayResults(results);
+        });
+
+        // 显示搜索结果
+        function displayResults(results) {
+            if (!results.length) {
+                resultsContainer.innerHTML = '<div class="no-results">没有找到相关文章</div>';
+                return;
+            }
+
+            const html = results.map(item => `
+                <article class="search-result">
+                    <h2><a href="${item.url}">${item.title}</a></h2>
+                    <div class="post-meta">
+                        <time>${new Date(item.date_published).toLocaleDateString()}</time>
+                    </div>
+                    <div class="post-summary">${item.summary}</div>
+                    ${item.tags ? `
+                    <div class="post-tags">
+                        ${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                    ` : ''}
+                </article>
+            `).join('');
+
+            resultsContainer.innerHTML = html;
+        }
+    });
+</script>
+
+<style>
+.search-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.search-box {
+    margin-bottom: 2rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid var(--card-background);
+    border-radius: 8px;
+    background: var(--card-background);
+    color: var(--card-text-color-main);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+.search-result {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--card-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.search-result:hover {
+    transform: translateY(-2px);
+}
+
+.search-result h2 {
+    margin: 0 0 1rem;
+}
+
+.search-result h2 a {
+    color: var(--card-text-color-main);
+    text-decoration: none;
+}
+
+.search-result h2 a:hover {
+    color: var(--accent-color);
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: var(--card-text-color-secondary);
+    margin-bottom: 1rem;
+}
+
+.post-summary {
+    color: var(--card-text-color-main);
+    margin-bottom: 1rem;
+}
+
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    padding: 0.3rem 0.8rem;
+    background: var(--card-background);
+    border: 1px solid var(--card-text-color-secondary);
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: var(--card-text-color-secondary);
+}
+
+.no-results {
+    text-align: center;
+    padding: 2rem;
+    color: var(--card-text-color-secondary);
+}
+</style>
+{{ end }} 

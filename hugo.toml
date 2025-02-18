@@ -31,12 +31,11 @@ enableEmoji = true
     [params.sidebar]
         emoji = "🤖"
         subtitle = "探索AI技术的无限可能"
-        avatar = "/img/avatar/avatar.png"
 
         [params.sidebar.avatar]
             enabled = true
             local = true
-            src = "img/avatar/avatar.png"
+            src = "/img/avatar/avatar.svg"
 
     [params.article]
         math = false
