@@ -36,7 +36,7 @@ enableEmoji = true
         [params.sidebar.avatar]
             enabled = true
             local = true
-            src = "img/avatar.png"
+            src = "images/avatar.png"
 
     [params.article]
         math = false
