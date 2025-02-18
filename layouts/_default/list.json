@@ -8,8 +8,8 @@
         {{- $length := len $pages -}}
         {{ range $index, $element := $pages }}
         {
-            "id" : "{{ .Permalink }}",
-            "url" : "{{ .Permalink }}",
+            "id" : "{{ .RelPermalink }}",
+            "url" : "{{ .RelPermalink }}",
             "title" : {{ .Title | jsonify }},
             "date_published" : "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
             "content_html" : {{ .Content | jsonify }},
