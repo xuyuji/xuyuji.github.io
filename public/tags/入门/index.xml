@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>入门 on Yuji的AI探索博客</title>
+        <link>http://localhost:1313/tags/%E5%85%A5%E9%97%A8/</link>
+        <description>Recent content in 入门 on Yuji的AI探索博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%85%A5%E9%97%A8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI探索之旅的开始</title>
+        <link>http://localhost:1313/posts/hello-world/</link>
+        <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/hello-world/</guid>
+        <description>&lt;img src="http://localhost:1313/img/hello-world.jpg" alt="Featured image of post AI探索之旅的开始" /&gt;&lt;h2 id=&#34;欢迎来到我的ai探索博客&#34;&gt;欢迎来到我的AI探索博客
+&lt;/h2&gt;&lt;p&gt;大家好，欢迎来到我的AI探索博客！在这里，我将分享我在人工智能领域的学习心得、实践经验和最新发现。&lt;/p&gt;
+&lt;h3 id=&#34;为什么要开始这个博客&#34;&gt;为什么要开始这个博客？
+&lt;/h3&gt;&lt;p&gt;人工智能正在深刻地改变着我们的生活和工作方式。作为一个AI领域的探索者，我希望能够：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;记录学习过程&lt;/li&gt;
+&lt;li&gt;分享实践经验&lt;/li&gt;
+&lt;li&gt;与志同道合的朋友交流&lt;/li&gt;
+&lt;li&gt;追踪AI技术的最新发展&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;博客会包含什么内容&#34;&gt;博客会包含什么内容？
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;AI技术研究和应用&lt;/li&gt;
+&lt;li&gt;机器学习算法解析&lt;/li&gt;
+&lt;li&gt;深度学习框架使用指南&lt;/li&gt;
+&lt;li&gt;AI项目实战经验&lt;/li&gt;
+&lt;li&gt;行业动态和新闻评论&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;如何参与交流&#34;&gt;如何参与交流？
+&lt;/h3&gt;&lt;p&gt;你可以通过以下方式参与交流：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在文章下方留言&lt;/li&gt;
+&lt;li&gt;关注我的GitHub&lt;/li&gt;
+&lt;li&gt;通过邮件联系我&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;让我们一起在AI的海洋中探索吧！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

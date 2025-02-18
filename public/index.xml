@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Yuji的AI探索博客</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on Yuji的AI探索博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI探索之旅的开始</title>
+        <link>http://localhost:1313/posts/hello-world/</link>
+        <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/hello-world/</guid>
+        <description>&lt;img src="http://localhost:1313/img/hello-world.jpg" alt="Featured image of post AI探索之旅的开始" /&gt;&lt;h2 id=&#34;欢迎来到我的ai探索博客&#34;&gt;欢迎来到我的AI探索博客
+&lt;/h2&gt;&lt;p&gt;大家好，欢迎来到我的AI探索博客！在这里，我将分享我在人工智能领域的学习心得、实践经验和最新发现。&lt;/p&gt;
+&lt;h3 id=&#34;为什么要开始这个博客&#34;&gt;为什么要开始这个博客？
+&lt;/h3&gt;&lt;p&gt;人工智能正在深刻地改变着我们的生活和工作方式。作为一个AI领域的探索者，我希望能够：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;记录学习过程&lt;/li&gt;
+&lt;li&gt;分享实践经验&lt;/li&gt;
+&lt;li&gt;与志同道合的朋友交流&lt;/li&gt;
+&lt;li&gt;追踪AI技术的最新发展&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;博客会包含什么内容&#34;&gt;博客会包含什么内容？
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;AI技术研究和应用&lt;/li&gt;
+&lt;li&gt;机器学习算法解析&lt;/li&gt;
+&lt;li&gt;深度学习框架使用指南&lt;/li&gt;
+&lt;li&gt;AI项目实战经验&lt;/li&gt;
+&lt;li&gt;行业动态和新闻评论&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;如何参与交流&#34;&gt;如何参与交流？
+&lt;/h3&gt;&lt;p&gt;你可以通过以下方式参与交流：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在文章下方留言&lt;/li&gt;
+&lt;li&gt;关注我的GitHub&lt;/li&gt;
+&lt;li&gt;通过邮件联系我&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;让我们一起在AI的海洋中探索吧！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>关于我</title>
+        <link>http://localhost:1313/about/</link>
+        <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/about/</guid>
+        <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我
+&lt;/h2&gt;&lt;p&gt;你好！我是 Yuji，一个对人工智能充满热情的探索者。我热衷于学习和分享 AI 相关的知识和经验。&lt;/p&gt;
+&lt;h3 id=&#34;我的兴趣领域&#34;&gt;我的兴趣领域
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;机器学习&lt;/li&gt;
+&lt;li&gt;深度学习&lt;/li&gt;
+&lt;li&gt;自然语言处理&lt;/li&gt;
+&lt;li&gt;计算机视觉&lt;/li&gt;
+&lt;li&gt;AI 应用开发&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;为什么是-ai&#34;&gt;为什么是 AI？
+&lt;/h3&gt;&lt;p&gt;人工智能正在以前所未有的速度改变着世界。作为一个技术爱好者，我被 AI 的无限可能所吸引。通过这个博客，我希望能够：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;记录我的学习历程&lt;/li&gt;
+&lt;li&gt;分享有价值的经验&lt;/li&gt;
+&lt;li&gt;结识志同道合的朋友&lt;/li&gt;
+&lt;li&gt;共同探索 AI 的未来&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;联系方式&#34;&gt;联系方式
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a class=&#34;link&#34; href=&#34;https://github.com/yuji-blog&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;yuji-blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: [your-email@example.com]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;关于本博客&#34;&gt;关于本博客
+&lt;/h3&gt;&lt;p&gt;本博客使用 Hugo 框架构建，采用 Stack 主题。主要分享以下内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI 技术研究和应用&lt;/li&gt;
+&lt;li&gt;学习资源和教程&lt;/li&gt;
+&lt;li&gt;项目实战经验&lt;/li&gt;
+&lt;li&gt;行业动态分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;欢迎关注我的博客，一起探索 AI 的奇妙世界！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
