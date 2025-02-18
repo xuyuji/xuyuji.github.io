@@ -18,7 +18,7 @@ enableEmoji = true
     mainSections = ["posts"]
     featuredImageField = "image"
     rssFullContent = true
-    favicon = "img/avatar/avatar.png"
+    favicon = "img/avatar/鱼机up.png"
 
     [params.footer]
         since = 2024
@@ -35,7 +35,7 @@ enableEmoji = true
         [params.sidebar.avatar]
             enabled = true
             local = true
-            src = "img/avatar/avatar.png"
+            src = "img/avatar/鱼机up.png"
 
     [params.article]
         math = false
