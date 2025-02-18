@@ -18,7 +18,7 @@ enableEmoji = true
     mainSections = ["posts"]
     featuredImageField = "image"
     rssFullContent = true
-    favicon = "/favicon.png"
+    favicon = "/img/favicon.png"
 
     [params.footer]
         since = 2024
@@ -31,11 +31,35 @@ enableEmoji = true
     [params.sidebar]
         emoji = "🤖"
         subtitle = "探索AI技术的无限可能"
+        avatar = "/img/avatar/avatar.png"
 
         [params.sidebar.avatar]
             enabled = true
             local = true
-            src = "img/avatar.png"
+            src = "img/avatar/avatar.png"
+
+    [params.article]
+        math = false
+        toc = true
+        readingTime = true
+        
+    [params.comments]
+        enabled = true
+        provider = "utterances"
+        
+        [params.comments.utterances]
+            repo = "xuyuji/yuji-blog.github.io"
+            issueTerm = "pathname"
+            label = "comment"
+            theme = "preferred-color-scheme"
+
+    # 自定义样式
+    [params.style]
+        darkestColor = "#242930"
+        darkColor = "#353b43"
+        lightColor = "#afbac4"
+        lightestColor = "#ffffff"
+        primaryColor = "#57cc8a"
 
 # 菜单配置
 [menu]
@@ -44,22 +68,58 @@ enableEmoji = true
         name = "首页"
         url = "/"
         weight = -100
-        pre = "home"
+        [menu.main.params]
+            icon = "home"
 
     [[menu.main]]
         identifier = "about"
         name = "关于"
         url = "/about"
         weight = -90
-        pre = "user"
+        [menu.main.params]
+            icon = "user"
 
     [[menu.main]]
         identifier = "search"
         name = "搜索"
         url = "/search"
         weight = -70
-        pre = "search"
+        [menu.main.params]
+            icon = "search"
 
-# 社交链接
-[social]
-    github = "yuji-blog"
+    [[menu.social]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/xuyuji"
+        weight = -100
+        [menu.social.params]
+            icon = "brand-github"
+
+# 页面设置
+[page]
+    [page.math]
+        enable = true
+        use = "katex"
+
+# 隐私设置
+[privacy]
+    [privacy.vimeo]
+        disabled = false
+        simple = true
+
+    [privacy.twitter]
+        disabled = false
+        enableDNT = true
+        simple = true
+
+    [privacy.instagram]
+        disabled = false
+        simple = true
+
+    [privacy.youtube]
+        disabled = false
+        privacyEnhanced = true
+
+# 输出设置
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
