@@ -1,0 +1,18 @@
+{
+    "items": [
+        {{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+        {{- $length := len $pages -}}
+        {{ range $index, $element := $pages }}
+        {
+            "id": {{ .File.UniqueID | jsonify }},
+            "url": "{{ .RelPermalink }}",
+            "title": {{ .Title | jsonify }},
+            "date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+            "content_html": {{ .Content | jsonify }},
+            "summary": {{ .Summary | jsonify }},
+            "tags": {{ .Params.tags | jsonify }},
+            "categories": {{ .Params.categories | jsonify }}
+        }{{ if ne (add $index 1) $length }},{{ end }}
+        {{ end }}
+    ]
+} 

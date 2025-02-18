@@ -15,23 +15,30 @@
         const resultsContainer = document.getElementById('search-results');
         let searchIndex = null;
 
+        // 获取当前环境的基础URL
+        const baseUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+            ? '/' 
+            : '{{ .Site.BaseURL }}';
+
         // 加载搜索索引
-        fetch('/index.json')
+        console.log('Loading search index from:', baseUrl + 'index.json');
+        resultsContainer.innerHTML = '<div class="info">正在加载搜索索引...</div>';
+
+        fetch(baseUrl + 'index.json')
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('Failed to load search index');
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 return response.json();
             })
             .then(data => {
-                console.log('Search index loaded:', data);
+                console.log('Search index loaded successfully');
                 searchIndex = data.items;
-                // 显示索引加载成功信息
                 resultsContainer.innerHTML = '<div class="info">搜索索引加载成功，请输入关键词搜索</div>';
             })
             .catch(error => {
                 console.error('Error loading search index:', error);
-                resultsContainer.innerHTML = '<div class="error">搜索索引加载失败，请稍后重试</div>';
+                resultsContainer.innerHTML = `<div class="error">搜索索引加载失败：${error.message}<br>请检查网络连接或稍后重试</div>`;
             });
 
         // 处理搜索
@@ -54,7 +61,7 @@
                 const categoriesMatch = item.categories && item.categories.some(cat => cat.toLowerCase().includes(query));
                 return titleMatch || contentMatch || tagsMatch || categoriesMatch;
             });
-            console.log('Search results:', results);
+            console.log('Found', results.length, 'results');
 
             displayResults(results, query);
         });
@@ -67,11 +74,13 @@
             }
 
             const html = results.map(item => {
+                // 处理URL，确保它是完整的URL
+                const url = item.url.startsWith('http') ? item.url : baseUrl + item.url.replace(/^\//, '');
                 const title = highlightText(item.title, query);
                 const summary = highlightText(item.summary, query);
                 return `
                     <article class="search-result">
-                        <h2><a href="${item.url}">${title}</a></h2>
+                        <h2><a href="${url}">${title}</a></h2>
                         <div class="post-meta">
                             <time>${new Date(item.date_published).toLocaleDateString()}</time>
                         </div>

@@ -123,3 +123,12 @@ enableEmoji = true
 # 输出设置
 [outputs]
     home = ["HTML", "RSS", "JSON"]
+    page = ["HTML"]
+    section = ["HTML", "RSS"]
+    taxonomy = ["HTML", "RSS"]
+    term = ["HTML", "RSS"]
+
+[outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
