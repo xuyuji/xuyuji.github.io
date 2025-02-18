@@ -1,6 +1,6 @@
 baseURL = 'https://xuyuji.github.io/'
 languageCode = 'zh-cn'
-title = 'Yuji的AI探索博客'
+title = '鱼机'
 theme = 'hugo-theme-stack'
 
 # 默认语言设置
@@ -30,7 +30,7 @@ enableEmoji = true
 
     [params.sidebar]
         emoji = "🤖"
-        subtitle = "探索AI技术的无限可能"
+        subtitle = "程序员|AIGC"
         compact = false
 
         [params.sidebar.avatar]
