@@ -1,4 +1,4 @@
-baseURL = 'https://yuji-blog.github.io/'
+baseURL = 'https://xuyuji.github.io/yuji-blog.github.io/'
 languageCode = 'zh-cn'
 title = 'Yuji的AI探索博客'
 theme = 'hugo-theme-stack'
