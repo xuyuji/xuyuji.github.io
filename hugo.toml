@@ -1,4 +1,4 @@
-baseURL = 'https://xuyuji.github.io/yuji-blog.github.io/'
+baseURL = 'https://xuyuji.github.io/'
 languageCode = 'zh-cn'
 title = 'Yuji的AI探索博客'
 theme = 'hugo-theme-stack'
@@ -48,7 +48,7 @@ enableEmoji = true
         provider = "utterances"
         
         [params.comments.utterances]
-            repo = "xuyuji/yuji-blog.github.io"
+            repo = "xuyuji/xuyuji.github.io"
             issueTerm = "pathname"
             label = "comment"
             theme = "preferred-color-scheme"
