@@ -24,8 +24,8 @@ brew install hugo
 
 2. 克隆仓库
 ```bash
-git clone https://github.com/yuji-blog/yuji-blog.github.io.git
-cd yuji-blog.github.io
+git clone https://github.com/xuyuji/xuyuji.github.io.git
+cd xuyuji.github.io
 ```
 
 3. 启动本地服务器
@@ -37,7 +37,7 @@ hugo server -D
 
 ## 部署
 
-本站使用 GitHub Pages 部署，访问地址：https://yuji-blog.github.io
+本站使用 GitHub Pages 部署，访问地址：https://xuyuji.github.io
 
 - 提交到 main 分支会自动触发部署
 - 部署过程由 GitHub Actions 自动完成
@@ -47,7 +47,7 @@ hugo server -D
 
 ### 搜索功能
 
-1. 访问搜索页面：https://yuji-blog.github.io/search/
+1. 访问搜索页面：https://xuyuji.github.io/search/
 2. 在搜索框中输入关键词
 3. 实时显示匹配的文章
 4. 支持以下搜索范围：

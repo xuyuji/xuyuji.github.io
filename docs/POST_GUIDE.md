@@ -60,7 +60,7 @@ git push origin main
 ```
 
 2. 等待 GitHub Actions 自动部署（约1-2分钟）
-3. 访问 https://yuji-blog.github.io 查看效果
+3. 访问 https://xuyuji.github.io 查看效果
 
 ## 文章编写建议
 
