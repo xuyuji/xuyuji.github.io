@@ -1,0 +1,19 @@
+{
+    "version" : "https://jsonfeed.org/version/1",
+    "title" : "Yuji的AI探索博客",
+    "home_page_url" : "http://localhost:1313/",
+    "feed_url" : "http://localhost:1313/feed.json",
+    "items" : [
+        {
+            "id" : "http://localhost:1313/posts/hello-world/",
+            "url" : "http://localhost:1313/posts/hello-world/",
+            "title" : "AI探索之旅的开始",
+            "date_published" : "2024-02-18T00:00:00Z",
+            "content_html" : "\u003ch2 id=\"欢迎来到我的ai探索博客\"\u003e欢迎来到我的AI探索博客\n\u003c/h2\u003e\u003cp\u003e大家好，欢迎来到我的AI探索博客！在这里，我将分享我在人工智能领域的学习心得、实践经验和最新发现。\u003c/p\u003e\n\u003ch3 id=\"为什么要开始这个博客\"\u003e为什么要开始这个博客？\n\u003c/h3\u003e\u003cp\u003e人工智能正在深刻地改变着我们的生活和工作方式。作为一个AI领域的探索者，我希望能够：\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e记录学习过程\u003c/li\u003e\n\u003cli\u003e分享实践经验\u003c/li\u003e\n\u003cli\u003e与志同道合的朋友交流\u003c/li\u003e\n\u003cli\u003e追踪AI技术的最新发展\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3 id=\"博客会包含什么内容\"\u003e博客会包含什么内容？\n\u003c/h3\u003e\u003cul\u003e\n\u003cli\u003eAI技术研究和应用\u003c/li\u003e\n\u003cli\u003e机器学习算法解析\u003c/li\u003e\n\u003cli\u003e深度学习框架使用指南\u003c/li\u003e\n\u003cli\u003eAI项目实战经验\u003c/li\u003e\n\u003cli\u003e行业动态和新闻评论\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"如何参与交流\"\u003e如何参与交流？\n\u003c/h3\u003e\u003cp\u003e你可以通过以下方式参与交流：\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e在文章下方留言\u003c/li\u003e\n\u003cli\u003e关注我的GitHub\u003c/li\u003e\n\u003cli\u003e通过邮件联系我\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e让我们一起在AI的海洋中探索吧！\u003c/p\u003e\n",
+            "summary" : "\u003ch2 id=\"欢迎来到我的ai探索博客\"\u003e欢迎来到我的AI探索博客\n\u003c/h2\u003e\u003cp\u003e大家好，欢迎来到我的AI探索博客！在这里，我将分享我在人工智能领域的学习心得、实践经验和最新发现。\u003c/p\u003e\n\u003ch3 id=\"为什么要开始这个博客\"\u003e为什么要开始这个博客？\n\u003c/h3\u003e\u003cp\u003e人工智能正在深刻地改变着我们的生活和工作方式。作为一个AI领域的探索者，我希望能够：\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e记录学习过程\u003c/li\u003e\n\u003cli\u003e分享实践经验\u003c/li\u003e\n\u003cli\u003e与志同道合的朋友交流\u003c/li\u003e\n\u003cli\u003e追踪AI技术的最新发展\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3 id=\"博客会包含什么内容\"\u003e博客会包含什么内容？\n\u003c/h3\u003e\u003cul\u003e\n\u003cli\u003eAI技术研究和应用\u003c/li\u003e\n\u003cli\u003e机器学习算法解析\u003c/li\u003e\n\u003cli\u003e深度学习框架使用指南\u003c/li\u003e\n\u003cli\u003eAI项目实战经验\u003c/li\u003e\n\u003cli\u003e行业动态和新闻评论\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"如何参与交流\"\u003e如何参与交流？\n\u003c/h3\u003e\u003cp\u003e你可以通过以下方式参与交流：\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e在文章下方留言\u003c/li\u003e\n\u003cli\u003e关注我的GitHub\u003c/li\u003e\n\u003cli\u003e通过邮件联系我\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e让我们一起在AI的海洋中探索吧！\u003c/p\u003e",
+            "tags" : ["入门","简介"],
+            "categories" : ["AI","机器学习"]
+        }
+        
+    ]
+} 
